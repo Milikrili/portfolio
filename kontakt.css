@@ -5,7 +5,7 @@
 }
 
 body{
-    background: rgb(11, 11, 88);
+    background-color: rgb(18, 7, 41);
     color: rgb(189, 189, 30);
    
 }
@@ -16,7 +16,7 @@ body{
     width: 30%;
     height: 450px;
     text-align: center;
-    background: rgb(24, 24, 116);
+    background: rgb(27, 27, 78);
 }
 
 table{
@@ -29,14 +29,20 @@ input{
     
     padding: 10px 20px;
     color: rgb(211, 211, 25);
-    background: rgb(11, 11, 88);
+    background: rgb(41, 41, 87);
 }
 textarea{
     color: rgb(197, 197, 53);
-    background:rgb(11, 11, 88)
+    background:rgb(41, 41, 87);
 }
 #reset{
     color: red;
+}
+body a{
+    color: coral;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 20pt;
 }
  
 
