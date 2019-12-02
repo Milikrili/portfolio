@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="kontakt.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <form>
-        <fieldset>
-            <legend><center><strong>KONTAKT</strong></center> </legend>
+    
+    <form  action="zapis.php" method="POST" >
+       
+        <fieldset class="center" >
+            <legend><strong>KONTAKT</strong></legend>
         
         <table border="0">
          <tr>
              
              <td> 
                  <p>Ostavite poruku:</p>
-                 <textarea name="nPoruka" id="iPoruka" cols="30" rows="10" placeholder="Ovde unesite vasu poruku"></textarea> 
+                 <textarea name="nPoruka" id="iPoruka" cols="40" rows="10" placeholder="Ovde unesite vasu poruku" ></textarea> 
                 </td>
          </tr>
+         
          <tr>
             
              <td> 
@@ -30,12 +36,16 @@
          <tr>
              <td colspan="2">
                  <input type="submit" name="nPosalji" value="Posalji">
-                 <input type="reset" name="nPosalji" value="Resetuj">
+                 <input type="reset" name="nPosalji" value="Resetuj" id="reset">
              </td>
              
          </tr>
         </table>
-        </fieldset>
+    </fieldset>
     </form>
+
+    
+    
 </body>
+
 </html>

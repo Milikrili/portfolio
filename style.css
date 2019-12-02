@@ -1,11 +1,10 @@
 body{
     background-image:url('pozadina.gif');
     color:rgb(120, 121, 113);
-    padding: 0 20px 0 20px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 5%;
+    margin: 0px;
+    padding:0px;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 
     
 }
@@ -15,22 +14,19 @@ h1{
     color: rgb(201, 198, 40);
     font-family: 'Indie Flower', cursive;
 }
-/*  .center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    */
-
-
-
-div{
+#slika{
     text-align: center;
-   
 }
+
+
+
 .justify{
     text-align: justify;
     color: rgb(180, 180, 45);
+    margin-left: 30%;
+    margin-right: 30%;
+    
+    
 }
 
 .lead{
@@ -38,54 +34,68 @@ div{
     font-weight:bold;
     color: rgb(101, 94, 102);
 }
-a  {
-    color: rgb(238, 100, 9);
-    margin: 10px;
     
-}
+
 h2{
     font-family: 'Indie Flower', cursive;
     text-align: center;
     color: rgb(180, 180, 45);
 }
-.font{
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(18, 7, 41);
     font-family: 'Indie Flower', cursive;
-}
-nav a{
-     
-     margin-right: 10px;
-     text-decoration:none;
-     border:4px solid rgb(204, 204, 30);
-     padding: 2px 8px;
-     color: rgb(224, 224, 15);
-     text-align: center;
-     font-family: 'Indie Flower', cursive;
-    
-}
-/* li{
-    list-style: none;
-    display: inline;
-    margin-right: 10px;
-    text-align: justify;
-    
-} */
-nav {
-    text-align: center;
-    position: static;
+
 }
 
-h4{
-    display: inline;
-    margin-right: 10px;
-    color: rgb(202, 90, 38);
+.menu{
+    color: rgb(180, 180, 45);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+
 }
-hr{
-    margin-top: 20px;
+.nav-links{
+    display: flex;
+    justify-content:space-around;
+    width: 40%;
+
+}
+
+.nav-links a{
+    color: rgb(180, 180, 45);
+    text-decoration:none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+}
+.nav-links li{
+    list-style: none;
+    
     
 }
+.nav-links li :hover{
+    background: rgb(211, 116, 8);
+}
+
+    
+
 footer{
     text-align: center;
     color: rgb(230, 230, 32);
 }
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+}
+
 
 
